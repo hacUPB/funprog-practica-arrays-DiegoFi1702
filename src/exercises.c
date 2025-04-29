@@ -6,7 +6,11 @@
 
 int calcSum(int arr[], int n)
 {
-    // Escriba aquí su código
+    int suma = 0
+    for(int i = 0; i < n; i++;){
+        suma += arr[i];
+    }
+    return suma; 
 }
 
 int findMax(int arr[], int n)
